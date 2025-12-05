@@ -1,6 +1,10 @@
-# IELTS Band 6 vs Band 8 - Ben Siran Academy
+L# IELTS Band 6 vs Band 8 - Ben Siran Academy
 
 An interactive educational tool to help IELTS students understand the differences between Band 6 and Band 8 writing.
+
+## 🎓 About Ben Siran Academy
+
+Ben Siran Academy is dedicated to helping students achieve IELTS excellence through comprehensive training and expert guidance.
 
 ## 🌟 Features
 
@@ -20,10 +24,10 @@ An interactive educational tool to help IELTS students understand the difference
   - Tablet-optimized
   - Desktop-ready
 
-- **Ben Siran Academy Branding**
-  - Custom logo
-  - Brand colors (Teal & Red)
-  - Professional design
+- **Professional Ben Siran Academy Branding**
+  - Custom BS logo with pen nib
+  - Brand colors (Teal #0d7c66 & Red #ef4444)
+  - Modern, engaging design
 
 ## 🚀 Quick Start
 
@@ -41,7 +45,7 @@ An interactive educational tool to help IELTS students understand the difference
    - Go to Settings > Pages
    - Under "Source", select "main" branch
    - Click Save
-4. Your site will be live at: `httpshttps://ielts-writing-theta.vercel.app/`
+4. Your site will be live at: `https://yourusername.github.io/repositoryname`
 
 ## 📁 Project Structure
 
@@ -57,6 +61,7 @@ ielts-band-comparison/
 - HTML5
 - Tailwind CSS (via CDN)
 - Vanilla JavaScript
+- SVG for logo
 - CSS Animations
 
 ## 📱 Browser Support
@@ -74,7 +79,7 @@ To customize the content, edit the `slides` array in the JavaScript section of `
 ```javascript
 const slides = [
     {
-        title: "Wanna Revolutionize Your Speaking Score?! ",
+        title: "Your Title",
         subtitle: "Your subtitle",
         band6: {
             title: "Band 6:",
@@ -92,18 +97,16 @@ const slides = [
 ## 📞 Contact
 
 **Ben Siran Academy**
-
-Want to prepare for IELTS Band 8?
-Follow us and DM 'Study Plan'
+Your Path to IELTS Excellence
 
 ## 📄 License
 
-This project is open source and available for educational purposes.
+This project is created for Ben Siran Academy educational purposes.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+For suggestions or improvements, please reach out to Ben Siran Academy.
 
 ---
 
-Made with ❤️ by Ben Siran Academy
+© Ben Siran Academy - Master IELTS Writing with Confidence
