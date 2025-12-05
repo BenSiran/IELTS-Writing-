@@ -41,7 +41,7 @@ An interactive educational tool to help IELTS students understand the difference
    - Go to Settings > Pages
    - Under "Source", select "main" branch
    - Click Save
-4. Your site will be live at: `https://yourusername.github.io/repositoryname`
+4. Your site will be live at: `httpshttps://ielts-writing-theta.vercel.app/`
 
 ## 📁 Project Structure
 
@@ -74,7 +74,7 @@ To customize the content, edit the `slides` array in the JavaScript section of `
 ```javascript
 const slides = [
     {
-        title: "Your Title",
+        title: "Wanna Revolutionize Your Speaking Score?! ",
         subtitle: "Your subtitle",
         band6: {
             title: "Band 6:",
