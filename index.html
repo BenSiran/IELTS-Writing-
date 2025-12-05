@@ -27,7 +27,7 @@
             }
         }
         
-        .logo-animation {
+        .logo-pulse {
             animation: pulse 2s ease-in-out infinite;
         }
         
@@ -43,22 +43,34 @@
 </head>
 <body class="bg-gradient-to-br from-pink-200 via-purple-200 to-indigo-300 min-h-screen">
     <div class="container mx-auto px-4 py-8 max-w-6xl">
-        <!-- Header with Logo -->
+        <!-- Header with Your Actual Logo -->
         <div class="text-center mb-8">
-            <div class="w-32 h-32 mx-auto mb-4 bg-teal-700 rounded-full flex items-center justify-center border-4 border-red-500 logo-animation">
-                <svg class="w-20 h-20 text-red-500" viewBox="0 0 100 100" fill="currentColor">
-                    <text x="50" y="70" font-size="60" font-weight="bold" text-anchor="middle" font-family="Arial">BS</text>
-                    <path d="M 50 85 L 50 95 M 45 95 L 55 95 L 50 100 Z" stroke="currentColor" stroke-width="3" fill="currentColor"/>
-                </svg>
+            <div class="w-40 h-40 mx-auto mb-4 bg-teal-700 rounded-full flex items-center justify-center border-4 border-red-500 shadow-2xl logo-pulse relative">
+                <!-- Your BS Logo with Pen Nib -->
+                <div class="relative">
+                    <svg class="w-32 h-32" viewBox="0 0 200 200" fill="none">
+                        <!-- B Letter -->
+                        <path d="M 60 60 L 60 140 L 90 140 C 105 140 115 130 115 115 C 115 105 110 98 100 95 C 108 92 112 85 112 75 C 112 60 102 60 90 60 Z M 75 70 L 90 70 C 95 70 97 72 97 77 C 97 82 95 85 90 85 L 75 85 Z M 75 95 L 92 95 C 98 95 100 98 100 105 C 100 112 98 130 92 130 L 75 130 Z" fill="#ef4444" stroke="#ef4444" stroke-width="2"/>
+                        
+                        <!-- S Letter -->
+                        <path d="M 120 80 C 120 70 128 60 145 60 C 160 60 168 68 168 78 L 153 78 C 153 74 150 70 145 70 C 140 70 135 72 135 78 C 135 83 138 85 148 88 C 162 92 175 96 175 110 C 175 125 165 140 145 140 C 125 140 118 128 118 118 L 133 118 C 133 123 137 130 145 130 C 152 130 160 127 160 118 C 160 112 156 109 145 105 C 130 100 120 95 120 80 Z" fill="#ef4444" stroke="#ef4444" stroke-width="2"/>
+                        
+                        <!-- Pen Nib at Bottom -->
+                        <line x1="100" y1="150" x2="100" y2="170" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+                        <circle cx="100" cy="170" r="3" fill="#ef4444"/>
+                        <path d="M 95 170 L 100 180 L 105 170" fill="#ef4444"/>
+                    </svg>
+                </div>
             </div>
-            <h2 class="text-red-600 text-2xl font-bold tracking-wide">BEN SIRAN ACADEMY</h2>
+            <h1 class="text-red-600 text-3xl md:text-4xl font-bold tracking-wider mb-2">BEN SIRAN ACADEMY</h1>
+            <p class="text-teal-700 text-lg font-semibold">Master IELTS Writing with Confidence</p>
         </div>
 
         <!-- Title Card -->
         <div class="bg-white rounded-3xl shadow-2xl p-8 mb-8 border-4 border-teal-700">
-            <h1 class="text-5xl md:text-6xl font-black text-teal-700 text-center mb-4">
+            <h2 class="text-5xl md:text-6xl font-black text-teal-700 text-center mb-4">
                 IELTS Writing
-            </h1>
+            </h2>
             <div class="text-center flex flex-wrap justify-center items-center gap-4">
                 <span class="text-4xl md:text-5xl font-black text-gray-800 bg-yellow-300 px-6 py-2 inline-block transform -rotate-2 shadow-lg">
                     BAND 6
@@ -95,17 +107,25 @@
         </div>
 
         <!-- Call to Action -->
-        <div class="bg-black rounded-2xl p-6 text-center border-4 border-red-500 mb-6">
-            <p class="text-white text-xl md:text-2xl mb-2 font-semibold">
-                Follow Us & Comment/DM
+        <div class="bg-gradient-to-r from-teal-700 to-teal-800 rounded-2xl p-8 text-center border-4 border-red-500 mb-6 shadow-2xl">
+            <h3 class="text-white text-2xl md:text-3xl font-black mb-3">
+                Ready to Achieve Band 8?
+            </h3>
+            <p class="text-white text-lg md:text-xl mb-4 font-semibold">
+                Join Ben Siran Academy Today
             </p>
-            <p class="text-white text-3xl md:text-4xl font-black">'Study Plan'</p>
+            <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full text-xl shadow-lg transform hover:scale-105 transition-all">
+                Get Started
+            </button>
         </div>
 
         <!-- Footer -->
-        <div class="text-center">
-            <p class="text-teal-800 text-sm md:text-base font-semibold">
-                Want to Prepare for IELTS Band 8?
+        <div class="text-center bg-white rounded-xl p-4 shadow-lg border-2 border-teal-700">
+            <p class="text-teal-800 text-base md:text-lg font-bold mb-1">
+                Ben Siran Academy
+            </p>
+            <p class="text-gray-600 text-sm">
+                Your Path to IELTS Excellence
             </p>
         </div>
     </div>
